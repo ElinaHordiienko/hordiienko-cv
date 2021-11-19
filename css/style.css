@@ -49,8 +49,8 @@ body {
 .my-work-expirience-duties-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
   margin: 0 0 10px 0;
 }
 
@@ -59,8 +59,8 @@ body {
 .my-courses-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 14px;
+  line-height: 17px;
   color: #909cac;
   margin: 0 0 10px 0;
 }
@@ -78,8 +78,8 @@ body {
 .my-work-experience-duty {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
   color: #595959;
 }
 
@@ -95,6 +95,8 @@ body {
 .ui-accordion .ui-accordion-header {
   border: 0;
   font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 #accordion .ui-widget-content {
@@ -112,8 +114,8 @@ body {
   color: #a47053;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
   margin: 0 0 10px 0;
 }
 .my-education-department,
@@ -147,8 +149,8 @@ body {
 .sidebar-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 24px;
+  line-height: 29px;
   color: #fff;
   margin-bottom: 10px;
 }
@@ -156,8 +158,8 @@ body {
 /* contacts section */
 .contacts-section-type {
   font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
   color: #fff;
   margin-right: 7px;
 }
@@ -165,8 +167,8 @@ body {
 .contacts-section-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
   color: #fff;
 }
 
@@ -185,8 +187,8 @@ body {
 .soft-skills-item-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
   color: #fff;
 }
 
