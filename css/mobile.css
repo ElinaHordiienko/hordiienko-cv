@@ -1,0 +1,28 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-conteiner {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 600px;
+}
+
+/* Main content section */
+
+.main-content-section {
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+}
+
+.sidebar-section {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+}
+
+.photo {
+  width: 185px;
+  border-radius: 50%;
+}
