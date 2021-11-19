@@ -1,28 +1,214 @@
-body {
-  font-family: 'Montserrat', sans-serif;
-}
+media only screen and (max-width: 600px) {
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
 
-.main-conteiner {
-  display: flex;
-  flex-direction: column-reverse;
-  width: 600px;
-}
+  .main-conteiner {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 600px;
+    margin: 0;
+  }
 
-/* Main content section */
+  /* Main content section */
 
-.main-content-section {
-  display: flex;
-  flex-direction: column;
-  background-color: blueviolet;
-}
+  .main-content-section {
+    display: flex;
+    flex-direction: column;
+  }
 
-.sidebar-section {
-  display: flex;
-  flex-direction: row;
-  background-color: blue;
-}
+  /* About me section */
+  .about-me-section {
+    background-color: #eebd6b;
+    padding: 0 20px;
+  }
 
-.photo {
-  width: 185px;
-  border-radius: 50%;
+  .about-me-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+    color: #000;
+  }
+
+  /* my work experience-section */
+
+  .my-work-experience-section,
+  .my-education-section {
+    padding: 0 20px;
+  }
+
+  .my-work-experience-section {
+    background-color: #cec3c8;
+  }
+
+  .my-work-experience-company {
+    color: #a47053;
+  }
+  .my-work-expirience-position,
+  .my-work-expirience-duties-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+
+  .my-work-expirience-period,
+  .my-education-period,
+  .my-courses-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #909cac;
+    margin: 0 0 10px 0;
+  }
+
+  .my-work-experience-divider,
+  .my-education-divider {
+    color: #000;
+  }
+
+  .my-work-experience-duties-list {
+    padding: 0 0 0 17px;
+    margin: 0;
+  }
+
+  .my-work-experience-duty {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+  }
+
+  .my-work-expirience-company-block {
+    margin: 0 0 15px 0;
+  }
+
+  #accordion .ui-accordion-contentdion {
+    background-color: #bfe6ef;
+  }
+
+  /* my education */
+  .my-education-section {
+    background-color: #ecdab9;
+  }
+
+  .my-education-university-name,
+  .my-courses-company-name {
+    color: #a47053;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+  .my-education-department,
+  .my-courses-name {
+    margin: 0 0 10px 0;
+  }
+
+  .my-courses-section {
+    background-color: #cec3c8;
+    padding: 0 20px;
+  }
+
+  /* sidebar secrion */
+
+  .sidebar-section {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    background-color: #a47053;
+    padding: 20px;
+    width: auto;
+  }
+
+  .photo {
+    width: 185px;
+    border-radius: 50%;
+    padding-right: 10px;
+  }
+
+  .contacts-section,
+  .tech-skills-section,
+  .soft-skills-section,
+  .social-networks-section {
+    margin: 10px 0;
+  }
+
+  .sidebar-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin: 10px 0;
+  }
+
+  /* contacts section */
+  .contacts-section-type {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 7px;
+  }
+
+  .contacts-section-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  /* tech skills section */
+  .tech-skills-list,
+  .soft-skills-list {
+    padding: 0 0 0 17px;
+    margin-bottom: 0;
+  }
+
+  .tech-skills-item,
+  .soft-skills-item {
+    color: #eebd6b;
+  }
+
+  .tech-skills-item-text,
+  .soft-skills-item-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 16px;
+    width: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa-facebook {
+    background: #ecdab9;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #cec3c8;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #ecdab9;
+    color: white;
+  }
 }
