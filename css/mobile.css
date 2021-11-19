@@ -1,4 +1,4 @@
-media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -88,8 +88,19 @@ media only screen and (max-width: 600px) {
     margin: 0 0 15px 0;
   }
 
-  #accordion .ui-accordion-contentdion {
-    background-color: #bfe6ef;
+  /* accordion styles */
+
+  #accordion .my-work-expirience-duties-title {
+    background-color: #cec3c8;
+  }
+
+  .ui-accordion .ui-accordion-header {
+    border: 0;
+    font-weight: bold;
+  }
+
+  #accordion .ui-widget-content {
+    background-color: #ecdab9;
   }
 
   /* my education */
@@ -187,7 +198,7 @@ media only screen and (max-width: 600px) {
     color: #fff;
   }
 
-  .fa {
+  .social-networks-section .fa {
     padding: 10px;
     font-size: 16px;
     width: 16px;

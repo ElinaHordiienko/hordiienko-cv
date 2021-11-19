@@ -4,30 +4,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My resume</title>
-    <link rel="stylesheet" href="css/style.css" />
+
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Social networs icons -->
+    <!-- Social networks icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!-- Media query(mobile version) -->
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css" />
-
     <!-- jQuery UI Accordion - Collapse content -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css" />
     <link rel="stylesheet" href="/resources/demos/style.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Media query(mobile version) -->
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/mobile.css" />
+
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
     <script>
       $(function () {
         $('#accordion').accordion({
           collapsible: true,
+          heightStyle: 'content',
         });
       });
     </script>

@@ -39,11 +39,11 @@ body {
 }
 
 .my-work-experience-section {
-  background-color: #bfe6ef;
+  background-color: #cec3c8;
 }
 
 .my-work-experience-company {
-  color: #eebd6b;
+  color: #a47053;
 }
 .my-work-expirience-position,
 .my-work-expirience-duties-title {
@@ -61,7 +61,7 @@ body {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #909cac;
   margin: 0 0 10px 0;
 }
 
@@ -87,18 +87,29 @@ body {
   margin: 0 0 15px 0;
 }
 
-#accordion .ui-accordion-contentdion {
-  background-color: #bfe6ef;
+/* accordion styles */
+#accordion .my-work-expirience-duties-title {
+  background-color: #cec3c8;
+}
+
+.ui-accordion .ui-accordion-header {
+  border: 0;
+  font-weight: bold;
+}
+
+#accordion .ui-widget-content {
+  background-color: #ecdab9;
 }
 
 /* my education */
 .my-education-section {
-  background-color: #447695;
+  background-color: #ecdab9;
+  border-color: none;
 }
 
 .my-education-university-name,
 .my-courses-company-name {
-  color: #eebd6b;
+  color: #a47053;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -111,7 +122,7 @@ body {
 }
 
 .my-courses-section {
-  background-color: #bfe6ef;
+  background-color: #cec3c8;
   padding: 40px 50px 50px 50px;
 }
 
@@ -121,9 +132,9 @@ body {
   border-radius: 50%;
 }
 .sidebar-section {
-  background-color: #359d93;
+  background-color: #a47053;
   width: 370px;
-  padding: 40px 0;
+  padding: 40px 10px;
 }
 
 .contacts-section,
@@ -190,16 +201,16 @@ body {
 }
 
 .fa-facebook {
-  background: #3b5998;
+  background: #ecdab9;
   color: white;
 }
 
 .fa-linkedin {
-  background: #007bb5;
+  background: #cec3c8;
   color: white;
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #ecdab9;
   color: white;
 }
